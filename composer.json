@@ -1,8 +1,26 @@
 {
     "name": "RBSoft/Comunicar",
+    "vesrion": "1.0.0",
+
+    "type":"symfony-bundle",
+    "description":"Adminstra Mensajes, notificaciones y alerta",
+    "keywords":["Msn","mensajes", "notificacion", "alert","alerts"],
+    "homepage":"https://github.com/cachorios/Comunicarbundle",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Luis Rios",
+            "email":"cachorios@gmail.com"
+        },
+        {
+            "name":"Alberto Voeffray",
+            "email":"alberto2000@gmail.com"
+        }
+    ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": ">=2.3"
-    }
-}
+        "php": ">=5.3.3"
+
+    },
+    "target-dir":"RBSoft/ComunicarBundle"
+} 
 
